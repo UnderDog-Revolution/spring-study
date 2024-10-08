@@ -48,6 +48,4 @@ public class HelloController {
             this.name = name;
         }
     }
-    // desktop git pull test.
-    // make user package.
 }
