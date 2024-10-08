@@ -4,7 +4,7 @@ import hello.hello_spring.domain.Member;
 
 import java.util.*;
 
-// 구현체이므로, 앞서 만들어뒀던 MemberRepository 인터페이스를 implements를 해 주어야 한다.
+// 구현체이므로, 앞서 만들어뒀던 MemberRepository 인터페이스를 implements를 해주어야 한다.
 public class MemoryMemberRepository implements MemberRepository {
 
     private static Map<Long, Member> store = new HashMap<>(); // 예제이므로 간단히 해시맵저장소 이용
