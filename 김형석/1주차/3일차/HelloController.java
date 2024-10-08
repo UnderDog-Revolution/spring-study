@@ -8,7 +8,6 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
 public class HelloController {
-
     @GetMapping("hello")
     public String hello(Model model) {
         /* 키는 data이고, 값은 hello이다 */
